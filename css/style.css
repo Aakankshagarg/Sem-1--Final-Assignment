@@ -1,0 +1,774 @@
+
+@import url('href="https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+body {
+  background-color: white;
+  font: 400 normal 1em/1.5 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  overflow-y: scroll;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: yellow;
+
+}
+.menubar  {
+  height: 2em;
+  width: 100%;
+} 
+
+.logo {
+  height: 1.5em;
+  width: 100%;
+}
+
+.hamburger {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  height: 1em;
+  
+}
+
+.click {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.cart {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: white;
+}
+
+.material-icons {
+  align-self: center;
+  color:black;
+}
+
+.heart {
+ size: 1em;
+ padding: 0 0 1em 0;
+ max-width:20em;
+ margin: auto;
+}
+
+.shop {
+  size: 1em;
+  padding: 0 0 1em 0;
+  max-width:20em;
+  margin: auto;
+ }
+ 
+.star {
+  height: 0.1em;
+}
+
+
+.hero {
+  display: none;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+  top: 2em;
+  font-size: small; */
+}
+/* 
+.hero ul li { 
+  text-align: center;
+} */
+
+
+.banner {
+  width: 100%;
+  background-color: yellow;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.5em 0em;
+  font-weight: 500;
+}
+
+.dropdown {
+ display: grid;
+ grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+ list-style-type: none;
+  /* grid-gap: 0.7em; */
+ padding: 0.6em 1em 0.2em 1em;
+ font-size: 0.8em;
+ grid-gap: 0.2em;
+}
+
+.option {
+  text-align: right;
+}
+
+.filter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-self: left;
+  padding: 1em 0;
+  max-width: 30em;
+  margin: auto;
+
+}
+/* .filler { */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  /* max-width: 58em;
+  margin: auto;
+  text-align: left;
+} */
+
+/* .attributes { */
+  /* display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr; */
+  /* column-gap: 3em;
+  text-align: center;
+  padding: 0 0.5em 0 0.5em; 
+  min-width: 0;
+} */
+
+.selectors {
+  text-align: right;
+}
+
+
+
+.attributes .elements {
+padding: 0 5em 0 0;
+ text-align: right;
+}
+
+.secondary {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; */
+  max-width: 58em;
+  margin: auto;
+  align-self: center;
+  text-align: center;
+}
+
+
+.price {
+  text-align: center;
+}
+
+
+ .style {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   text-align: center;
+   margin: 0 0 1em 0;
+   max-width: 20em;
+   margin: auto;
+ }
+
+
+.links  {
+  padding: 0;
+  list-style-type: none;
+}
+
+
+.merchandise {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  max-width: 50em;
+  margin: auto;
+ 
+}
+
+.product-name {
+  width: 100%;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  padding: 0.5em 0em;  
+  font-weight: 500; 
+  max-width: 58em;
+  margin: auto;
+  background-color: yellow;
+  
+}
+
+.product-description {
+  width: 100%;
+  text-align: center; 
+  padding: 0.1em 0em;
+  max-width: 58em;
+  margin: auto; 
+  font-size: 0.9em;
+  color: black;
+}
+
+/* .bag {
+  top: 21em;
+}
+
+.bag-about {
+  top: 38em 
+}
+
+.click-bag li {
+  display: inline-block;
+  position: absolute;
+  top: 39em;
+  font-size: 0.7em;
+  text-align: center;
+  padding: 0em;
+}
+
+.click-bag a {
+  color: white;
+  text-decoration: none;
+  padding: 0 3em 0 2em;
+  text-align: center;
+} 
+
+
+.shoes {
+  top: 35em;
+}
+
+.shoes-about {
+  top: 61em;
+}
+
+
+.click-shoes li {
+  display: inline-block;
+  position: absolute;
+  top: 60em;
+  font-size: 0.7em;
+  text-align: center;
+  padding: 0em;
+}
+
+.click-shoes a {
+  color: white;
+  text-decoration: none;
+  padding: 0em 2em;
+  text-align: center;
+} 
+
+.helmet {
+  top: 51em;
+}
+
+.helmet-about {
+  top: 87em; 
+}
+
+.click-helmet li {
+  display: inline-block;
+  position: absolute;
+  top: 80em;
+  font-size: 0.7em;
+  text-align: center;
+  padding: 0em;
+}
+
+.click-helmet a {
+  color: white;
+  text-decoration: none;
+  padding: 0 3em 0 2em;
+  text-align: center;
+} 
+
+.rope {
+  top: 65em;
+}
+
+.rope-about {
+  top: 111em;
+}
+
+.click-rope li {
+  display: inline-block;
+  position: absolute;
+  top: 100em;
+  font-size: 0.7em;
+  text-align: center;
+  padding: 0em;
+}
+
+.click-rope a {
+  color: white;
+  text-decoration: none;
+  padding: 0 3em 0 2em;
+  text-align: center;
+} 
+
+.gear {
+  top: 80em;
+}
+
+.gear-about {
+  top: 136em;
+}
+
+.click-gear li {
+  display: inline-block;
+  position: absolute;
+  top: 123em;
+  font-size: 0.7em;
+  text-align: center;
+  padding: 0em;
+}
+
+.click-gear a {
+  color: white;
+  text-decoration: none;
+  padding: 0 3em 0 2em;
+  text-align: center;
+}  */
+
+.more-pages {
+  text-align: center;
+  margin: 1em 0 0 0;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+  list-style-type: none;
+  max-width: 58em;
+  margin: auto;  
+}
+
+.pageend {
+  background-color: yellow;
+}
+
+.end {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr; 
+  color: black; 
+  max-width: 58em;
+  margin: auto;
+  align-content: center;
+ 
+}
+
+.extra {
+  text-align: center;
+  padding: 1em 0;
+}
+
+
+
+.rockclimbing {
+  background-image: url('../img/rock-climbing.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 10em;
+  height: 30vw;
+  top: 0;
+  max-width: 100%;
+  margin: auto;
+}
+
+
+
+@media screen and (min-width: 20em) {
+ 
+  .product-name {
+    grid-template-columns: 1fr ;
+    max-width: 58em;
+    margin: auto;
+  }
+
+  .end {
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    align-self: center;
+    padding: 0;
+    font-size: 0.7em;
+    
+  }
+
+  .face {
+    font-size: 1.2em;
+ 
+  }
+
+  .camera {
+    font-size: 1.2em;
+  
+  }
+
+  .email {
+    font-size: 1.2em;
+  
+
+  }
+
+  .numbers {
+    padding: 0 0 1em 7em;
+  }
+
+  .style button {
+    color: black;
+    margin: 1em 1em 0 0;
+    border: 2em;
+    background-color: yellow; 
+    align-self: center;
+  }
+
+  .heart {
+    size: 0.2em;
+    padding: 0;
+   }
+   
+   .shop {
+     size: 0.2em;
+     padding: 0;
+   }
+
+}
+
+  @media screen and (min-width: 40em) {
+
+.product-name {
+    grid-template-columns: 1fr ;
+    max-width: 58em;
+    margin: auto;
+  }   
+   
+    .end {
+      grid-template-columns: 0.3fr 0.3fr 0.3fr;
+      align-self: center;
+      padding: 0 0 0 10em;
+    }
+
+    .numbers {
+      padding: 0 0 1em 17.5em;
+    }
+
+    .material-icons {
+      height: 0.5em;
+      color:black;
+    }
+
+    .button {
+      border: none;
+      padding: 0 .02em 0 0;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+  
+    .style button {
+      color: black;
+      margin: 1em 1em 0 0;
+      border: 2em;
+      padding: 0.3em;
+      background-color: yellow; 
+    }
+
+    .heart {
+      size: 1em;
+      padding: 0 0 1em 0;
+     }
+     
+     .shop {
+       size: 1em;
+       padding: 0 0 1em 0;
+      }
+   
+  }
+  
+  @media screen and (min-width: 80em) {
+  
+    .product-name{
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 58em;
+      margin: auto;
+    }
+
+  
+    .end {
+      grid-template-columns: 0.2fr 0.2fr 0.2fr;
+      align-self: center;
+      padding: 0 0 0 15em;
+    }
+    
+    .numbers {
+      padding: 0 0 1em 25em;
+      text-align: center;
+      align-self: center;
+    }
+
+    .material-icons {
+      height: 0.7em;
+      color:black;
+    }
+  
+    .style button {
+      color: black;
+      margin: 1em 1em 0 0;
+      border: 2em;
+      padding: 0.3em;
+      background-color: yellow; 
+    }
+
+    .heart {
+      size: 1em;
+      padding: 0 0 1em 0;
+     }
+     
+     .shop {
+       size: 1em;
+       padding: 0 0 1em 0;
+      }
+  
+  }
+
+
+
+
+
+  /* .travelbags {
+    background-image: url('../img/travel\ bag-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10em;
+    height: 30vw;
+    top: 0;
+    max-width: 100%;
+    margin: auto;
+  } */
+
+/* .product-box {
+  display: grid;
+  grid-template-columns: 1fr;
+} */
+
+.bags {
+  text-align: left;
+  text-transform: uppercase;
+  padding: 0.2em 0.6em 0 0.6em;
+  font-size: 1em;
+  font-weight: 500; 
+  max-width: 58em;
+  
+
+}
+
+/* .show {
+  display: grid;
+  grid-template-columns: 0.2fr 0.2fr  0.7fr;
+  grid-gap: 0.2em;
+  align-self: left;
+  padding: 1.5em;
+  font-size: 0.9em;
+  max-width: 30em;
+  margin: auto;
+
+} */
+
+.name {
+  text-align: right;
+}
+
+
+.about {
+  text-align: left;
+  font-size: 0.7em;
+  padding: 0 1em;
+}
+
+  .merchandise {
+    padding: 1.5em 0 0 0;
+   
+  }
+
+  .items {
+    display: grid;
+    grid-template-columns: 0.5fr 0.6fr 0.5fr 0.6fr;
+    list-style-type: none;
+    /* grid-gap: 0.7em; */
+    padding: 1em 1em 0.2em 1em;
+    font-size: 0.7em;
+  }
+
+  /* .size {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    grid-gap: 0.7em;
+    padding: 0.2em 1em;
+
+  } */
+
+  .color {
+    text-align: right;
+    padding: 0 0.2em 0 0;
+    font-size: 1.3em;
+  }
+
+  .size {
+    text-align: right;
+    padding: 0 0.2em 0 0;
+    font-size: 1.3em;
+  }
+
+  .feedback {
+    display: grid;
+    grid-template-columns: 0.15fr 0.6fr;
+    grid-gap: 0.4em;
+    padding: 0.5em 0 0 1em;
+    margin:0;
+    text-align: left;
+    font-size: 0.9em;
+    
+  }
+
+  .cost {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+    padding: 0.5em 0 0 1em;
+    font-size: 0.9em;
+  }
+
+
+  .star {
+    font-size: 0.9em;
+  }
+
+  /* .style {
+    display: none;
+    font-weight: 500;
+    text-transform: capitalize;
+  } */
+
+  .shopping {
+    display: inline;
+    text-align: left;
+    margin: 0;
+    font-size: 0.9em;
+  }
+
+  .shopping button {
+    color: black;
+    align-self: center;
+    margin: 1em 0 0 1em;
+    padding: 0 1em;
+    background-color: yellow;
+    border: 2em;
+  }
+
+  .buy {
+    padding: 0;
+    align-self: center;
+    font-size: 0.9em;
+  }
+
+  .details {
+    padding: 2em 0 0 1em;
+    font-weight: 500;
+    font-size: 0.9em;
+  }
+
+  .description {
+    padding: 0.2em 0 0 1em;
+    font-size: 0.9em;
+    font-size: 0.9em;
+  }
+
+  .lists {
+    padding: 0.2em 0 0 2.5em;
+    font-size: 0.9em;
+    list-style-type: disc;
+  }
+
+  .stylecode {
+    padding: 0.5em 0 0 1em;
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+
+  .ship {
+    padding: 1em 0 0 1em; 
+    font-size: 0.9em;
+  }
+
+  .ship button {
+    background-color: yellow;
+    padding: 0 0.5em;
+    border: 2em;
+  }
+
+  .pagenumbers {
+    text-align: center;
+    margin: 1em 0 0 0;
+  }
+  
+  .digits {
+    display: grid;
+    grid-template-columns: 0.08fr 0.08fr 0.08fr 0.08fr 0.08fr;
+    list-style-type: none;
+    max-width: 58em;
+    margin: auto;  
+    
+  }
+
+  @media screen and (min-width: 20em) {
+    .product-box {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+  }
+
+
+  @media screen and (min-width: 40em) {
+
+    .product-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .merchandise {
+    text-align: top;
+    margin: 1em 0 0 0;
+    }
+
+    .product-box-disc {
+      margin: 2em 0 0 0;
+      
+    }
+
+  
+
+    .bags {
+      text-align: left;
+      text-transform: uppercase;
+      padding: 0.2em 0.6em 0 0.6em;
+      font-size: 1em;
+      font-weight: 500; 
+    }
+    
+    .about {
+      font-size: 0.7em;
+      padding: 0 1em;
+    }
+  }
